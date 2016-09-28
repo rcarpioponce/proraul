@@ -1,0 +1,154 @@
+#top-bar{
+	background: #1055A2;
+}
+.open{
+	background: #0E4D92;
+}
+.navbar-header a,{
+  background: #1055A2;
+  color: white;
+}
+.nav.navbar-right > li > a, .nav.navbar-left > li > a {
+    color: #fff;
+}
+.nav.navbar-right > li > a:hover{
+	background: #0E4D92;
+}
+.nav > li.active {
+  border-left: 1px solid #FF4C1A;
+  background: #2C3B41;
+}
+.user-sunedu{
+    background-color: #1055A2;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+#logo-normal{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+}
+div.tooltip-inner {
+    max-width: 300px;
+    text-align: left;
+    padding: 10px;
+}
+#page-wrapper{
+	background-color: #ECF0F5;
+}
+.dropdown-menu{
+	background-color: #0E4D92;
+	color: #ECF0F5;
+}
+.nav.navbar-top-links .dropdown-alerts a:hover{
+	background-color: #CB4F2B;
+	color: #fff;
+}
+body:not(.fixed-sidebar).mini-navbar .nav li:hover > .nav-second-level, .mini-navbar .nav li:focus > .nav-second-level{
+	padding: 0;
+}
+
+ul.third-level-menu {
+  position: absolute;
+  display: none;
+  background-color: #0E4D92;
+  margin: -39px 0 0 298px;
+  padding: 0;
+  border-left: 1px solid #fff;
+}
+
+.nav li li:hover ul.third-level-menu {
+  display: block;
+  width: 422px;
+}
+.nav.nav-second-level > li.active a{
+	background-color: #8D371F;
+}
+.third-level-menu li{
+	padding: 10px;
+}
+.third-level-menu a.nav-label-menu{
+	color: #fff;
+	padding: 0 !important;
+	background-color: transparent !important;
+}
+.dropdown-menu{
+	padding: 0;
+}
+.third-level-menu li a:hover{
+	font-weight: 900;
+	text-decoration: underline;
+}
+/* Esquema de colores DATATABLES */
+table.dataTable, table.dataTable a{
+	color:#1055a2;
+	font-weight: 600;
+	font-size: 12px;
+}
+table.dataTable a, table a{
+	color:#574691;
+	font-weight: 900;
+}
+table.dataTable th,.table-striped th{
+	background-color: #574691;
+	color: #fff;
+  text-align: center;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #D0D9E8;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    color: #fff;
+    background-color: #574691;
+    border-color: #574691;
+}
+
+#formEstatuto{
+  margin-left:50px;
+  margin-top: 10px;
+}
+
+#formEstatuto > input[type='file'], .btn.btn-file > input[type='file'] {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 34px;
+    font-size: 24px;
+    text-align: right;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    outline: none;
+    background: red;
+    cursor: inherit;
+    display: block;
+}
+#nomFileDocumento{
+	float:left;
+	width: 50%;
+}
+.btn-file{
+	float: left;
+}
+td > h5{
+  color: #000;
+}
+.note-editor{
+  height: auto !important;
+  min-height: auto;
+}
+.note-editable{
+  border: #ADADAD solid 1px;
+}
+.fa-big{
+  font-size: 24px;
+}
+.jstree-default .jstree-icon:empty{
+  font-size: 20px;
+  color:#574691;
+}
+td small{
+  color:#CB4F2B;
+}
+embed{
+  height: 800px;
+}
